@@ -7,6 +7,11 @@
 @software: GibbsLDA
 @file: Model.py
 @time: 3/7/17 11:00 PM
+
+
+@update author:Zongshun Tian
+@update author contact:tzshun@cqu.edu.cn
+@update time:8/27/20 18:00
 @desc:    一些变量的解释
           1.一个训练数据的dataset:ptrndata
           2.word-topic的矩阵:nw
