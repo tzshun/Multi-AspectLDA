@@ -3,8 +3,8 @@ All of the codes are implemented based on the GibbsLDApy. More details see https
 
 How to use
 
-python LDA.py -est -alpha 0.5 -beta 0.1 -ntopics 5,5 -niters 1000 -savestep 100 -twords 20 -dfile documents.txt  -dir run_data/ -model mymodel
+python LDA.py -est -alpha 0.5 -beta 0.1 -ntopics 3,3 -niters 100 -savestep 100 -twords 20 -dfile documents.txt  -dir run_data/ -model mymodel
 
-'-ntopics 5,5' the parameter means that the Multi-AspectLDA model has 2 aspects, and the number of topic is 5 in the first aspect, the second is also 5.
+'-ntopics 3,3' the parameter means that the Multi-AspectLDA model has 2 aspects, and the number of topic is 3 in the first aspect, the second is also 3.
 if there are 3 aspects, the -ntopics should be '3,4,5'.
 
